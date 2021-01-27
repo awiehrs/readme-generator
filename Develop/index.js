@@ -6,13 +6,18 @@ const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-const questions =[
+const questions = [
 
     {
         type: 'input',
         default: 'Project Title',
         message: 'What is the name of your Project?',
         name: 'title'
+    },
+    {
+        type: 'input',
+        message: 'Please provide the name of the repository you use on GitHub for your project (case-sensitive)',
+        name: 'repo'
     },
     {
         type: 'input',
@@ -42,7 +47,7 @@ const questions =[
     {
         type: 'list',
         message: 'Choose a license for your project',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['GNUAGPLv3', 'GNUGPLv3', 'GNULGPLv3', 'Mozilla', 'Apache2.0', 'MIT', 'Boost1.0', 'Unlicense'],
         name: 'license'
     },
     {
@@ -77,7 +82,7 @@ async function init() {
         const markdown = generateMarkdown(answers);
         console.log(markdown);
 
-        await writeFileAsync('REDME.md', markdown);
+        await writeFileAsync('README.md', markdown);
     } catch (error) {
         console.log(error);
     }

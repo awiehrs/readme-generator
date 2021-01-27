@@ -49,7 +49,7 @@ ${data.tests}
 ## Questions 
 
 ![GitHub Logo](/assets/github-icon.png)  
-[link](https://www.github.com/${data.gitname}  
+[link](https://www.github.com/${data.gitname})
   
 
 Send me an e-mail at: ${data.email}
