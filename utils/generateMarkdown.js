@@ -40,21 +40,22 @@ function generateMarkdown(data) {
   
   ---
   
-  ## **Contributions**
-  
-  ${data.contributions}
-  
-  ---
-  
   ## **Tests**
   
   ${data.tests}
   
   ---
 
+  ## **Contributions**
+  
+  ${data.contributions}
+  
+  ---
+
   ## **License**
 
-  ![GitHub](https://img.shields.io/badge/license-${data.license}-blue?style=plastic)
+  ![GitHub](https://img.shields.io/badge/license-${data.license}-blue?style=plastic) 
+
   This application is covered under the licensing rules from ${data.license}
   
 

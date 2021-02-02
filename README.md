@@ -2,14 +2,15 @@
   <img src="assets/readme-header.png">
   </p>
   
-  # Ruby Tuesdays
-  ![GitHub](https://img.shields.io/badge/license-Apache2.0-blue?style=plastic)
+  # README Markdown File Generator
+  ![GitHub](https://img.shields.io/badge/license-MIT-blue?style=plastic)
   
   ---
 
   ## **Description**
     
-  its just a salad bar
+  The assignment was to create a Command Line Interface using npm inquirer and node that when run, generates a markdown file formatted as a quality README document for any application.
+  This README has been generated using this application.
   
   ---
   
@@ -28,32 +29,35 @@
   
   ## **Installation**
   
-  npm inquirer, node
+  NPM Inquirer, Node.js
   
   ---
   
   ## **Usage**
   
-  open the packages in your terminal, and run 'node index.js' 
-  
-  ---
-  
-  ## **Contributions**
-  
-  just me thanks
+  Once installed, the user can open the application in Node and enter 'node index'. This will initialize the application and the user will begin to receive prompts pertaining to the details of their project.
+
+  ![screenshots](assets/readme-gen-example.gif "Application GIF")
   
   ---
   
   ## **Tests**
   
-  npm jest
+  No tests have been conducted on this project.
+  
+  ---
+
+  ## **Contributions**
+  
+  N/A
   
   ---
 
   ## **License**
 
-  ![GitHub](https://img.shields.io/badge/license-Apache2.0-blue?style=plastic)
-  This application is covered under the licensing rules from Apache2.0
+  ![GitHub](https://img.shields.io/badge/license-MIT-blue?style=plastic) 
+  
+  This application is covered under the licensing rules from MIT
   
 
   ## Questions 
