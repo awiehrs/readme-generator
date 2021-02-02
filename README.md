@@ -36,7 +36,8 @@
   ## **Usage**
   
   Once installed, the user can open the application in the terminal and enter 'node index'. This will initialize the application and the user will begin to receive prompts pertaining to the details of their project. Once all the prompts are answered, a markdown file is generated and the answers to the prompts are associated to the appropriate sections.
-
+  
+  [Demo](https://drive.google.com/file/d/1gUnToQGnW4iT_C38Zc_0WWWVr62bDQel/view)
   ![screenshots](assets/readme-gen-example.gif "Application GIF")
   
   ---
