@@ -1,11 +1,14 @@
-// TODO: Create a function to generate markdown for README
+// Generates the markdown file with styling
 function generateMarkdown(data) {
   return `<p align="center">
   <img src="assets/readme-header.png">
   </p>
   
   # ${data.title}
+  ![GitHub](https://img.shields.io/badge/license-${data.license}-blue?style=plastic)
   
+  ---
+
   ## **Description**
     
   ${data.description}
@@ -52,6 +55,7 @@ function generateMarkdown(data) {
   ## **License**
 
   ![GitHub](https://img.shields.io/badge/license-${data.license}-blue?style=plastic)
+  This application is covered under the licensing rules from ${data.license}
   
 
   ## Questions 
