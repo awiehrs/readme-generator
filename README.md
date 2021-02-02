@@ -35,7 +35,7 @@
   
   ## **Usage**
   
-  Once installed, the user can open the application in Node and enter 'node index'. This will initialize the application and the user will begin to receive prompts pertaining to the details of their project.
+  Once installed, the user can open the application in Node and enter 'node index'. This will initialize the application and the user will begin to receive prompts pertaining to the details of their project. Once all the prompts are answered, a markdown file is generated and the answers to the prompts are associated to the appropriate sections.
 
   ![screenshots](assets/readme-gen-example.gif "Application GIF")
   
